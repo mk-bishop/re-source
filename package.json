@@ -1,16 +1,29 @@
 {
   "name": "re-sourcesite",
   "version": "1.0.0",
-  "description": "craft supply exchange website",
+  "description": "craft supply exchange",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "start": "npm run lite"
   },
-  "author": "mk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-bishop/re-source-site.git"
+  },
+  "author": "MK Dean",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk-bishop/re-source-site/issues"
+  },
+  "homepage": "https://github.com/mk-bishop/re-source-site#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
