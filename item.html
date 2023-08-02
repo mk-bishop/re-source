@@ -17,6 +17,51 @@
     
     <body>
     
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- gotta change those arias probs -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburgerNav" aria-controls="hamburgerNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- maybe a logo or sthg -->
+                <a class="navbar-brand" href="#">Re-Source</a>
+
+                <!-- why are they staaaacked -->
+                <div class="col col-2 col-md-4">
+                    <a class="nav-link" href="shopping-cart.html">
+                        <i class="fa fa-shopping-basket"></i>
+                    </a>
+                    <a class="nav-link" href="profile.html">
+                        <i class="fa fa-user"></i>
+                    </a>
+                </div>
+                <!-- wanna highlight what's being moused over -->
+                <div class="collapse navbar-collapse" id="hamburgerNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="profile.html">My Profile</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="market.html">Market</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="newsfeed.html">Newsfeed</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="item.html">Sample Sale Item</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="shopping-cart.html">My Shopping Cart</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex disabled" aria-disabled="true" role="search">
+                      <input class="form-control me-2 disabled" type="search" placeholder="Search" aria-label="Search" aria-disabled="true">
+                      <button class="btn disabled" type="submit" aria-disabled="true">Search</button>
+                    </form>
+                  </div>
+            </div>
+        </nav>
     
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 

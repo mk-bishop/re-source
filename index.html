@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
+
     <link rel="stylesheet" href="css/styles.css" />
     </head>
 
@@ -45,10 +46,13 @@
                         <a class="nav-link" href="market.html">Market</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="newsfeed.html">Newsfeed</a>
+                        <a class="nav-link" href="newsfeed.html">Newsfeed</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="item.html">Sample Sale Item</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="shopping-cart.html">My Shopping Cart</a>
                       </li>
                     </ul>
                     <form class="d-flex disabled" aria-disabled="true" role="search">
@@ -59,7 +63,48 @@
             </div>
         </nav>
 
-    
+        <!-- side-scrolling videos, maybe tiktok api? -->
+        <div class="container-fluid py-2">
+            <h3>suggested videos</h3>
+            <div class="row d-flex flex-row flex-nowrap" id="suggestedVideos">
+                <!-- they sorta scroll but aren't exactly what I want. i want this div to scroll and the rest to stay anchored. issa start tho!! will research more later-->
+                <!-- source: https://www.codeply.com/p/3nwL7bVEMl -->
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+                <div class="card card-body m-1 w-25">vid</div>
+            </div>
+        </div>
+
+        <!-- Your Resources -->
+        <div class="container">
+            <h3>your resources</h3>
+            <!-- these should be cards too lol -->
+            <div class="row" id="yourResources">
+                <div class="col">news feed
+                    <img src="img/seamless-knitting-pattern_1284-43049.jpeg" alt="knitting texture" class="rounded-circle" id="newsfeed-img" />
+                    <!-- source: https://www.freepik.com/free-vector/seamless-knitting-pattern_10604113.htm -->
+                </div>
+                <div class="col">sell supplies
+                    <img src="img/mail-package-with-label_1101-37.jpg" alt="brown paper package tied with string, large label attached" class="rounded-circle" id="sell-img" />
+                    <!-- source: https://www.freepik.com/free-photo/mail-package-with-label_859014.htm -->
+                </div>
+                <div class="col">buy new toys
+                    <img src="img/front-view-different-colorful-pencils-inside-yellow-pen-box-blue-floor_140725-63691.jpg" alt="yellow pencil pouch full of crayons and a paint box" class="rounded-circle" id="buy-img" />
+                </div>
+            </div>
+        </div>
+
+
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 
         <!-- build:js js/main.js-->

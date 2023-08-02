@@ -1,3 +1,9 @@
 body {
     background-color: forestgreen;
 }
+
+.rounded-circle {
+    width: 25vw;
+    height: 25vw;
+}
+
